@@ -1,0 +1,9 @@
+<configuration debug="false" scan="true">
+    <appender name="STDOUT" class="me.saiintbrisson.voidserver.util.logging.ServerConsoleAppender" />
+
+    <logger name="io.netty" level="WARN"/>
+
+    <root level="trace">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
